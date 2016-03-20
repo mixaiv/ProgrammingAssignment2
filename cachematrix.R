@@ -28,7 +28,7 @@ makeCacheMatrix <- function(x = matrix()) {
     raw
   }
   
-  data <- list(set = set, get = get, setInvertedMatrix = setInvertedMatrix, getInvertedMatrix = getInvertedMatrix)
+  list(set = set, get = get, setInvertedMatrix = setInvertedMatrix, getInvertedMatrix = getInvertedMatrix)
 }
 
 
